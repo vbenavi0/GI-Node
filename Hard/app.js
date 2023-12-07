@@ -1,6 +1,5 @@
 import fs from 'fs'
 import express, { json } from 'express'
-import axios from 'axios' 
 import *  as dotenv from 'dotenv'
 
 dotenv.config()
@@ -21,6 +20,7 @@ app.get('/employees', (req, res)=>{
 app.get('/employees/:id', (req, res)=>{
     const id = req.params.id
     if(id>10||id<1){
+        res.send('Employee not found')
         res.end()
     }
     else{
@@ -30,8 +30,8 @@ app.get('/employees/:id', (req, res)=>{
                 console.log(buf.emps[i].id)
                 console.log(id)
                 if(buf.emps[i].id==id){
-                    const per = (buf.emps[i]).toString()
-                    res.write(per)
+                    const per = (buf.emps[i])
+                    res.send(per)
                     res.end()
                 }
             }
