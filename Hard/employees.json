@@ -1,14 +1,14 @@
 {
 "emps": [
-        {"id": 1, "name": "Victor", "salary": "$1000000", "department": "Coding"}, 
-        {"id": 2, "name": "Jaylin", "salary": "$1", "department": "Coding"}, 
-        {"id": 3, "name": "Tommy", "salary": "$1", "department": "Coding"},
-        {"id": 4, "name": "Oscar", "salary": "$1000000", "department": "Coding"},
-        {"id": 5, "name": "Reggie", "salary": "$1000000", "department": "Coding"},
-        {"id": 6, "name": "Nikki", "salary": "$1", "department": "Coding"},
-        {"id": 7, "name": "Benji", "salary": "$1000000", "department": "Coding"},
-        {"id": 8, "name": "Brooke", "salary": "-$2", "department": "Coding"},
-        {"id": 9, "name": "Jerry", "salary": "$100", "department": "Coding"},
-        {"id": 10, "name": "Nicole", "salary": "$1", "department": "Coding"}
+        {"id": 1, "name": "Victor", "salary": "$1000000", "department": "CEO"}, 
+        {"id": 2, "name": "Jaylin", "salary": "$1", "department": "Customer Service"}, 
+        {"id": 3, "name": "Tommy", "salary": "$1", "department": "Customer Service"},
+        {"id": 4, "name": "Oscar", "salary": "$1000000", "department": "Engineering"},
+        {"id": 5, "name": "Reggie", "salary": "$1000000", "department": "Engineering"},
+        {"id": 6, "name": "Nikki", "salary": "$1", "department": "Customer Service"},
+        {"id": 7, "name": "Benji", "salary": "$1000000", "department": "Engineering"},
+        {"id": 8, "name": "Brooke", "salary": "$2", "department": "Customer Service"},
+        {"id": 9, "name": "Jerry", "salary": "$100", "department": "Engineering"},
+        {"id": 10, "name": "Nicole", "salary": "$1", "department": "Customer Service"}
     ]
 }
